@@ -1,0 +1,26 @@
+2024-11-21 17:18:17 [main] INFO  com.example.log.LogApplication - Starting LogApplication using Java 17.0.10 with PID 6252 (C:\Users\HP\Desktop\New folder\log\target\classes started by HP in C:\Users\HP\Desktop\New folder\log)
+2024-11-21 17:18:17 [main] DEBUG com.example.log.LogApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-21 17:18:17 [main] INFO  com.example.log.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 17:18:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-21 17:18:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-21 17:18:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-21 17:18:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21 17:18:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-21 17:18:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2669 ms
+2024-11-21 17:18:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-21 17:18:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-21 17:18:21 [main] INFO  com.example.log.LogApplication - Started LogApplication in 4.757 seconds (process running for 6.059)
+2024-11-21 17:18:21 [main] INFO  com.example.log.LogApplication - !THE APPLICATION IS START!..
+2024-11-21 17:18:27 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21 17:18:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-21 17:18:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-11-21 17:18:27 [http-nio-8080-exec-1] INFO  c.e.log.Controller.LogController - Info log
+2024-11-21 17:18:27 [http-nio-8080-exec-1] DEBUG c.e.log.Controller.LogController - Debug log
+2024-11-21 17:18:27 [http-nio-8080-exec-1] TRACE c.e.log.Controller.LogController - Trace log
+2024-11-21 17:18:27 [http-nio-8080-exec-1] WARN  c.e.log.Controller.LogController - Warning log
+2024-11-21 17:18:27 [http-nio-8080-exec-1] ERROR c.e.log.Controller.LogController - Error log
+2024-11-21 17:19:19 [http-nio-8080-exec-4] INFO  c.e.log.Controller.LogController - Info log
+2024-11-21 17:19:19 [http-nio-8080-exec-4] DEBUG c.e.log.Controller.LogController - Debug log
+2024-11-21 17:19:19 [http-nio-8080-exec-4] TRACE c.e.log.Controller.LogController - Trace log
+2024-11-21 17:19:19 [http-nio-8080-exec-4] WARN  c.e.log.Controller.LogController - Warning log
+2024-11-21 17:19:19 [http-nio-8080-exec-4] ERROR c.e.log.Controller.LogController - Error log
